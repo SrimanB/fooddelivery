@@ -1,0 +1,644 @@
+nav{
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+    display: fixed;
+}
+nav button{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#menu{
+    position: relative;
+    left: 1vw;
+}
+#user{
+    position: relative;
+    right: 1vw;
+}
+nav button img{
+    width: 30px;
+    height: 30px;
+}
+.navtext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    width: 200px;  
+}
+.navtext p{
+    margin: 0;
+    padding: 0;
+    font-size: 11.5px;
+}
+
+
+#address{
+    color: #FF6B00;
+}
+
+.startblock{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    right: 1vw;
+}
+.startblock h1{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-right: 1vw;
+    font-size: 26px;
+    font-weight: bold;
+}
+.searchandfilter{
+    display: flex;
+}
+#searchbar{
+    width: 338px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #ebebeb;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+input::placeholder{
+    color: black;
+    padding-left: 20px;
+    font-weight: 100;
+    font-size: 13px;
+}
+#filtericon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+#filtericonimg{
+    height: 40px;
+    width: 40px;
+}
+
+/* next section */
+.menutiles{
+    margin-top: 25px;
+    position: relative;
+    margin-left: 10px;
+}
+.menutiles button{
+    height: 100px;
+    width: 65px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    box-shadow: 0 10px 10px grey;
+    margin-right: 20px;
+    background-color: white;
+}
+.menutiles button:hover{
+    background-color: #FF6B00;
+    box-shadow: 0 10px 10px #FF6B00;
+}
+
+.menutiles img{
+    height: 25px;
+    width: 25px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    box-shadow: 0 6px 10px #FF6B00;
+}
+
+/* next section */
+
+.featured{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.featured p{
+    margin-left: 40px;
+    font-size: 12px;
+    color: #FF6B00;
+    position: absolute;
+    right: 0px;
+}
+.featured h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* next section */
+.popular{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.popular p{
+    margin-left: 40px;
+    font-size: 12px;
+    color: #FF6B00;
+    position: absolute;
+    right: 0px;
+}
+.popular h3{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+body{
+    font-family: inter;
+}
+.restaurantbtns{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.popularitems{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#hotelbutton1{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 25px;
+}
+#buttondetails{
+    position: absolute;
+    top: 133px;
+    cursor: pointer;
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#buttondetails h3{
+    position: absolute;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#verified{
+    position: absolute;
+    top: 7px;
+    left: 100px;
+}
+.delandtime{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    display: flex;
+}
+.delandtime *{
+    margin-right: 5px;
+}
+.delandtime p{
+    padding-right: 10px;
+}
+#scooter{
+    height: 15px;
+    width: 15px;
+}
+#freedelivery{
+    margin: 0;
+}
+#stopwatch{
+    height: 15px;
+    width: 15px;
+}
+#time{
+    margin: 0;
+
+}
+.sublabel{
+    display: flex;
+    position: relative;
+    top: 25px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.sublabel p{
+    margin-right: 10px;
+    padding: 2px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+}
+#review{
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border-radius: 20px;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+#review h4{
+    margin-left: 10px;
+}
+#review img{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+#review p{
+    margin-left: 5px;
+    color: grey;
+}
+#favoritebtn{
+    width: 30px;
+    background-color: red;
+    border: none;
+    height: fit-content;
+    position: relative;
+    top: -75px;
+    left: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#burger{
+    width:300px;
+    height: 200px;
+    border-radius: 20px;
+    padding: none;
+    margin: none;
+}
+
+
+
+@media (max-width: 500px) {
+
+    body{
+        font-family: inter;
+        overflow-x: hidden;
+    }
+    /* next section */
+
+    nav{
+        background-color: white;
+        height: 40px;
+        width: 100vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 44px;
+        display: fixed;
+    }
+    nav button{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    #menu{
+        position: relative;
+        left: 5vw;
+    }
+    #user{
+        position: relative;
+        right: 10vw;
+    }
+    nav button img{
+        width: 30px;
+        height: 30px;
+    }
+    .navtext{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 39px;
+        width: 200px;  
+    }
+    .navtext p{
+        margin: 0;
+        padding: 0;
+        font-size: 11.5px;
+    }
+
+
+    #address{
+        color: #FF6B00;
+    }
+
+    .startblock{
+        position: relative;
+        width: 100%;
+        height: 120px;
+        right: 1vw;
+    }
+    .startblock h1{
+        position: relative;
+        height: fit-content;
+        width: fit-content;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        padding-left: 20px;
+        margin-right: 1vw;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .searchandfilter{
+        display: flex;
+    }
+    #searchbar{
+        width: 338px;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+        border: none;
+        background-color: #ebebeb;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    input::placeholder{
+        color: black;
+        padding-left: 20px;
+        font-weight: 100;
+        font-size: 13px;
+    }
+    #filtericon{
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        border: none;
+        margin-top: 5px;
+    }
+    #filtericonimg{
+        height: 40px;
+        width: 40px;
+    }
+
+    /* next section */
+    .menutiles{
+        margin-top: 25px;
+        position: relative;
+        margin-left: 10px;
+    }
+    .menutiles button{
+        height: 100px;
+        width: 65px;
+        cursor: pointer;
+        position: relative;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        box-shadow: 0 10px 10px grey;
+        margin-right: 20px;
+        background-color: white;
+    }
+    .menutiles button:hover{
+        background-color: #FF6B00;
+        box-shadow: 0 10px 10px #FF6B00;
+    }
+
+    .menutiles img{
+        height: 25px;
+        width: 25px;
+        border: 1px solid transparent;
+        border-radius: 50px;
+        background-color: white;
+        position: absolute;
+        top: 20px;
+        left: 30%;
+        box-shadow: 0 6px 10px #FF6B00;
+    }
+    .menutiles p{
+        position: relative;
+        top: 20px;
+    }
+    .menutiles p:hover{
+        color: white;
+    }
+
+    /* next section */
+    
+    .horizontal-scroll{
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    
+    .featured{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .featured p{
+        margin-left: 40px;
+        font-size: 12px;
+        color: #FF6B00;
+        position: absolute;
+        right: 0px;
+    }
+    .featured h2{
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    /* next section */
+    .popular{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .popular p{
+        margin-left: 40px;
+        font-size: 12px;
+        color: #FF6B00;
+        position: absolute;
+        right: 0px;
+    }
+    .popular h3{
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    
+    .restaurantbtns{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .popularitems{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #hotelbutton1{
+        position: relative;
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 20px;
+        box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+        margin-right: 25px;
+    }
+    #buttondetails{
+        position: absolute;
+        top: 133px;
+        cursor: pointer;
+        background-color: white;
+        width: 300px;
+        height: 70px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    #buttondetails h3{
+        position: absolute;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #verified{
+        position: absolute;
+        top: 7px;
+        left: 100px;
+    }
+    .delandtime{
+        position: relative;
+        top: 30px;
+        left: 10px;
+        display: flex;
+    }
+    .delandtime *{
+        margin-right: 5px;
+    }
+    .delandtime p{
+        padding-right: 10px;
+    }
+    #scooter{
+        height: 15px;
+        width: 15px;
+    }
+    #freedelivery{
+        margin: 0;
+    }
+    #stopwatch{
+        height: 15px;
+        width: 15px;
+    }
+    #time{
+        margin: 0;
+    
+    }
+    .sublabel{
+        display: flex;
+        position: relative;
+        top: 25px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .sublabel p{
+        margin-right: 10px;
+        padding: 2px;
+        background-color: rgb(226, 226, 226);
+        border-radius: 5px;
+    }
+    #review{
+        position: absolute;
+        width: 100px;
+        height: 25px;
+        background-color: white;
+        border-radius: 20px;
+        top: 10px;
+        left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #review h4{
+        margin-left: 10px;
+    }
+    #review img{
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    #review p{
+        margin-left: 5px;
+        color: grey;
+    }
+    #favoritebtn{
+        width: 30px;
+        background-color: red;
+        border: none;
+        height: fit-content;
+        position: relative;
+        top: -75px;
+        left: -70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+    
+    #burger{
+        width:300px;
+        height: 200px;
+        border-radius: 20px;
+        padding: none;
+        margin: none;
+    }
+}
